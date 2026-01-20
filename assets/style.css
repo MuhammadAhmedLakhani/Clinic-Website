@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* global styles */
+
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+    font-size: 20px;
+
+}
+
+p{
+    font-size: 18px;
+    color: #fff;
+
+}
+
+
+
+/* header section starts here */
+
+#header-section {
+    padding: 20px;
+    background-color: #F8F8F8;
+}
+
+
+#header-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 20px;
+    padding-right: 20px;
+    
+    border-right:1px solid #000 ;
+}
+
+
+
+
+.logo img {
+    width: 60%;
+    background-color: transparent;
+}
+
+
+/* banner section starts here */
+#banner-section {
+    height: 90vh;
+    background: url("./images/clinics-bg.png");
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+#banner-section .container {
+    padding: 120px 0px 50px 0px;
+}
+
+
+.banner-description {
+    padding-top: 60px ;
+}
+
+.banner-description h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+
+/* banner section ends here */
