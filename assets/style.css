@@ -13,6 +13,9 @@ a {
 
 }
 
+span{
+    white-space:pre-line;
+}
 p {
     font-size: 18px;
     color: #3C3C59;
@@ -43,6 +46,7 @@ h2 {
 
 button {
     text-transform: uppercase !important;
+    border: none;
 }
 
 /* header section starts here */
@@ -288,3 +292,40 @@ button {
 }
 
 /* offers section ends here */
+
+/* Client section starts here */
+
+    #client-section {
+        background: url("./images/clients-bg-image.png");
+    }
+
+    .client-content {
+        text-align: center;
+    }
+
+    .client-content img {
+        margin-bottom: 30px;
+    }
+
+    .client-content h2 {
+        text-transform: capitalize !important;
+    }
+
+
+    .client-decorations {
+        padding-top: 40px;
+    }
+
+    .client-decorations img {
+        margin-left: 20px;
+    }
+
+
+/* Client section ends here */
+
+
+/* download section starts here */
+
+
+
+/* download secton ends here */
