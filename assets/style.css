@@ -224,7 +224,7 @@ button {
 
 .hr-seprator {
     height: 4px;
-    background:linear-gradient(to bottom , #7ABAFD 0% , #7AFDED 42% , #E3FD7A 100%);
+    background: linear-gradient(to bottom, #7ABAFD 0%, #7AFDED 42%, #E3FD7A 100%);
 }
 
 
@@ -251,3 +251,33 @@ button {
 }
 
 /* blog section ends here */
+
+
+/* offer section starts here */
+
+.offer-image {
+    height: 90vh;
+    background: url("./images/offers-image.png");
+    background-position: top;
+    background-size: cover;
+}
+
+.offer-btn button {
+    background-color: #fff;
+    color: #7ABAFD;
+}
+
+.offer-content {
+    padding: 128px 55px 30px;
+}
+
+.offer-content h2 {
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+.offer-content p {
+    color: #fff;
+}
+
+/* offers section ends here */
