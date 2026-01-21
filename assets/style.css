@@ -17,7 +17,7 @@ p {
     font-size: 18px;
     color: #3C3C59;
     line-height: 36px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     margin-bottom: 60px;
     white-space: pre-line;
 }
@@ -27,13 +27,14 @@ h1,
 h2,
 h3 {
     text-decoration: none !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 h2 {
     color: #3C3C59 !important;
     font-size: 48px !important;
     font-weight: bold !important;
+    text-transform: uppercase !important;
 }
 
 .container {
@@ -114,6 +115,7 @@ button {
 .banner-description h2 {
     color: #fff;
     font-size: 48px;
+    text-transform: capitalize !important;
 }
 
 
@@ -255,6 +257,11 @@ button {
 
 /* offer section starts here */
 
+
+#offers-section {
+    background-color:#F8F8F8;
+}
+
 .offer-image {
     height: 90vh;
     background: url("./images/offers-image.png");
@@ -265,6 +272,7 @@ button {
 .offer-btn button {
     background-color: #fff;
     color: #7ABAFD;
+    border: 0;
 }
 
 .offer-content {
@@ -273,7 +281,6 @@ button {
 
 .offer-content h2 {
     color: #fff !important;
-    text-transform: capitalize;
 }
 
 .offer-content p {
