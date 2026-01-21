@@ -327,5 +327,12 @@ button {
 /* download section starts here */
 
 
+#download-section {
+    background-color: #F8F8F8;
+}
+
+.download-btns img{
+    width: 70%;
+}
 
 /* download secton ends here */
