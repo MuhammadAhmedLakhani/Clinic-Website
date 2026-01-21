@@ -18,13 +18,26 @@ p {
     color: #3C3C59;
     line-height: 36px;
     font-family: 'Roboto', sans-serif;
-
+    margin-bottom: 60px;
+    white-space: pre-line;
 }
+
 
 h1,
 h2,
 h3 {
+    text-decoration: none !important;
     font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #3C3C59 !important;
+    font-size: 48px !important;
+    font-weight: bold !important;
+}
+
+.container {
+    padding: 120px 0px 50px 0px;
 }
 
 button {
@@ -36,6 +49,10 @@ button {
 #header-section {
     padding: 20px;
     background-color: #F8F8F8;
+}
+
+#header-section .container {
+    padding: 0;
 }
 
 
@@ -96,7 +113,7 @@ button {
 
 .banner-description h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 
@@ -121,9 +138,6 @@ button {
     padding: 120px 0px 50px 0px;
 }
 
-.about-row {
-    /* gap: 40px; */
-}
 
 
 .about-image-container img {
@@ -134,18 +148,7 @@ button {
     padding-top: 70px;
 }
 
-.left-image {
-    z-index: 4;
-    position: relative;
-}
 
-.left-image-bg {
-    z-index: 2;
-    position: relative;
-    bottom: 38%;
-    left: 13%;
-
-}
 
 
 .about-description h2 {
@@ -174,3 +177,73 @@ button {
     color: #F8F8F8;
     font-weight: bold;
 }
+
+
+
+
+/* clinic section starts here */
+
+
+#clinics-list-section {
+    background-color: #F8F8F8;
+}
+
+.list-card {
+    background-color: #D9EBFF;
+    border-radius: 40px;
+}
+
+
+.list-card-image img {
+    width: 100%;
+}
+
+
+.card-content {
+    padding: 20px 20px 30px;
+}
+
+
+.clinics-list-row {
+    flex-wrap: nowrap !important;
+}
+
+
+.card-content p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.list-description-row {
+    margin-bottom: 40px;
+}
+
+.clinics-list-row {
+    gap: 20px;
+}
+
+.hr-seprator {
+    height: 4px;
+    background:linear-gradient(to bottom , #7ABAFD 0% , #7AFDED 42% , #E3FD7A 100%);
+}
+
+
+/* clinics section ends here */
+
+
+/* blog section stats here */
+
+#blog-section {
+    background-color: #D9EBFF;
+}
+
+.blog-card {
+    background-color: #fff;
+}
+
+
+.blog-description-row {
+    margin-bottom: 40px !important;
+}
+
+/* blog section ends here */
