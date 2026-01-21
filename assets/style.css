@@ -27,7 +27,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-button  {
+button {
     text-transform: uppercase !important;
 }
 
@@ -136,7 +136,7 @@ button  {
 
 .left-image {
     z-index: 4;
-    position:relative;
+    position: relative;
 }
 
 .left-image-bg {
@@ -144,12 +144,13 @@ button  {
     position: relative;
     bottom: 38%;
     left: 13%;
+
 }
 
 
 .about-description h1 {
     color: #3C3C59;
-    font-size: 60px;
+    font-size: 48px;
 }
 
 
@@ -168,7 +169,7 @@ button  {
     border-top-left-radius: 0px;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
-    font-size: 32px;
+    font-size: 22px;
     background-color: #7ABAFD;
     color: #F8F8F8;
     font-weight: bold;
