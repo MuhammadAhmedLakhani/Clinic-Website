@@ -13,9 +13,10 @@ a {
 
 }
 
-span{
-    white-space:pre-line;
+span {
+    white-space: pre-line;
 }
+
 p {
     font-size: 18px;
     color: #3C3C59;
@@ -118,7 +119,7 @@ button {
 
 .banner-description h2 {
     color: #fff;
-    font-size: 48px;
+    font-size: 48px !important;
     text-transform: capitalize !important;
 }
 
@@ -263,7 +264,7 @@ button {
 
 
 #offers-section {
-    background-color:#F8F8F8;
+    background-color: #F8F8F8;
 }
 
 .offer-image {
@@ -295,30 +296,30 @@ button {
 
 /* Client section starts here */
 
-    #client-section {
-        background: url("./images/clients-bg-image.png");
-    }
+#client-section {
+    background: url("./images/clients-bg-image.png");
+}
 
-    .client-content {
-        text-align: center;
-    }
+.client-content {
+    text-align: center;
+}
 
-    .client-content img {
-        margin-bottom: 30px;
-    }
+.client-content img {
+    margin-bottom: 30px;
+}
 
-    .client-content h2 {
-        text-transform: capitalize !important;
-    }
+.client-content h2 {
+    text-transform: capitalize !important;
+}
 
 
-    .client-decorations {
-        padding-top: 40px;
-    }
+.client-decorations {
+    padding-top: 40px;
+}
 
-    .client-decorations img {
-        margin-left: 20px;
-    }
+.client-decorations img {
+    margin-left: 20px;
+}
 
 
 /* Client section ends here */
@@ -331,8 +332,137 @@ button {
     background-color: #F8F8F8;
 }
 
-.download-btns img{
+.download-btns img {
     width: 70%;
 }
 
 /* download secton ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------Tablet responsiveness starts here ------------*/
+
+
+
+@media (min-width:768px) and (max-width:992px) {
+
+    /* banner section responsiveness starts here */
+
+    p {
+        font-size: 24px !important;
+    }
+
+    #banner-section {
+        background-position: 70%;
+    }
+
+    .banner-description h2 {
+        font-size: 44px !important;
+    }
+
+
+    .banner-btns img {
+        width: 90%;
+    }
+
+    .about-image-container img {
+        width: 100%;
+    }
+
+    .about-description {
+        text-align: center;
+    }
+
+    .about-btn {
+        text-align: center;
+    }
+
+    .about-btn button {
+        padding: 21px 100px;
+        font-size: 30px;
+    }
+
+
+    /* clinics responsiveness starts here */
+
+
+    .clinics-list-row {
+        flex-direction: column;
+    }
+
+
+    .list-description-row {
+        text-align: center;
+    }
+
+
+    /* blog responsoiveness */
+
+    .blog-description-row {
+        text-align: center;
+    }
+
+    .blog-cards-row {
+        text-align: center;
+    }
+
+    .card-content :nth-child(1) {
+        font-size: 30px;
+    }
+
+    .card-content :nth-child(3) {
+        font-size: 30px;
+    }
+
+    /* .offer-image {
+        background-size: contain;
+        background-repeat: no-repeat;                                                                       
+    } */
+
+    .offer-content {
+        padding: 0;
+    }
+
+    .clinics-list-row {
+        text-align: center;
+    }
+
+
+    .about-btn button {
+        padding: 11px 20px;
+        font-size: 20px;
+    }
+
+     .offer-content h2 {
+        font-size: 36px !important;
+    }
+
+    .offer-content p {
+        margin-top: 20px;
+        font-size: 15px !important;
+        line-height: 1.5;
+    }
+
+    .offer-btn {
+        text-align: left;
+    }
+
+    
+}
+
+
+
+
+
