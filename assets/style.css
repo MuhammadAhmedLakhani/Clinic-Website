@@ -390,7 +390,7 @@ button {
     .offers-custom,
     .client-custom,
     .download-custom {
-        padding: 40px 0px 30px;
+        padding: 60px 0px 30px;
     }
 
     /* header responsiveness */
@@ -466,7 +466,7 @@ button {
         text-align: center;
     }
 
-    .card-content :nth-child(1){
+    .card-content :nth-child(1) {
         font-size: 25px;
     }
 
@@ -508,7 +508,7 @@ button {
     }
 
 
-    .client-content p{
+    .client-content p {
         margin-bottom: 20px !important;
     }
 
@@ -526,7 +526,7 @@ button {
     }
 
     h2 {
-        font-size: 35px !important;
+        font-size: 30px !important;
         margin-bottom: 20px !important;
     }
 
@@ -560,7 +560,7 @@ button {
     }
 
     #banner-section .row {
-        height: 65vh;
+        height: 67vh;
     }
 
 
@@ -611,6 +611,15 @@ button {
 
     .about-description-container {
         text-align: center;
+    }
+
+    .about-description P {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .about-btn button {
+        padding: 6px 80px;
     }
 
     /* clinics list section responsiveness */
@@ -665,6 +674,14 @@ button {
         padding: 11px 20px;
     }
 
+
+    .client-content img {
+        width: 40%;
+    }
+
+    .client-decorations img {
+        width: 25%;
+    }
 
 }
 
