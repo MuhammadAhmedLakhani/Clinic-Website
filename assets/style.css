@@ -41,14 +41,29 @@ h2 {
     text-transform: uppercase !important;
 }
 
-.container {
-    padding: 120px 0px 50px 0px;
-}
-
 button {
     text-transform: uppercase !important;
     border: none;
 }
+
+
+
+
+.about-custom,
+.clinics-custom,
+.blog-custom,
+.offers-custom,
+.client-custom,
+.download-custom {
+    padding: 100px 0px;
+}
+
+
+
+
+
+
+
 
 /* header section starts here */
 
@@ -107,11 +122,12 @@ button {
     background-position: top;
 }
 
-
-
-#banner-section .container {
-    padding: 120px 0px 50px 0px;
+#banner-section .row {
+    height: 80vh ;
 }
+
+
+
 
 
 .banner-description {
@@ -136,15 +152,11 @@ button {
 
 /* banner section ends here */
 
-#about-section {
+#about-clinics-section {
     background-color: #F8F8F8;
     z-index: 1;
 }
 
-
-#about-section .container {
-    padding: 120px 0px 50px 0px;
-}
 
 
 
@@ -198,7 +210,7 @@ button {
 
 .list-card {
     background-color: #D9EBFF;
-    border-radius: 80px;
+    border-radius: 40px;
 }
 
 
@@ -353,6 +365,7 @@ button {
 
 
 
+
 /* -------------------Tablet responsiveness starts here ------------*/
 
 
@@ -362,7 +375,8 @@ button {
     /* banner section responsiveness starts here */
 
     p {
-        font-size: 24px !important;
+        font-size: 18px !important;
+        line-height: 1.2;
     }
 
     #banner-section {
@@ -371,19 +385,19 @@ button {
     }
 
     .banner-description h2 {
-        font-size: 35px !important;
+        font-size: 25px !important;
     }
 
 
     .banner-btns img {
-        width: 90%;
+        width: 49%;
     }
 
     .about-image-container img {
         width: 100%;
     }
 
-    .about-description {
+    .about-description-container {
         text-align: center;
     }
 
@@ -474,14 +488,37 @@ button {
         line-height: 1.3;
     }
 
+    h2 {
+        font-size: 35px !important;
+        margin-bottom: 20px !important;
+    }
+
     .logo {
         width: 80%;
     }
 
+
+    
+.about-custom,
+.clinics-custom,
+.blog-custom,
+.offers-custom,
+.client-custom,
+.download-custom {
+    padding: 70px 0px 30px;
+}
+
+
+
+
+
+
+
+
     /* banner section responsiveness */
 
-
     #banner-section {
+        height: 70%;
         background-position: 70%;
     }
 
@@ -493,7 +530,29 @@ button {
         width: 60%;
     }
 
-/* about section respponsiveness */
+
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .menu li {
+        margin-right: 0px; 
+        padding-right: 0px; 
+        width: 100%;
+        padding: 10px 0px;
+        border: 0px;
+        border-bottom: 1px solid #000;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    /* about section respponsiveness */
 
     .about-right-container {
         text-align: center;
@@ -501,6 +560,10 @@ button {
 
     .about-image-container img {
         width: 100%;
+    }
+
+    .about-description-container {
+        text-align: center;
     }
 
     /* clinics list section responsiveness */
@@ -511,6 +574,12 @@ button {
 
     .clinics-list-row {
         flex-direction: column;
+        text-align: center;
+    }
+
+
+    .list-card {
+        margin-bottom: 20px;
     }
 
 
@@ -521,5 +590,29 @@ button {
 
     .blog-cards-row {
         text-align: center;
+    }
+
+    /* offer section responsiveness */
+
+    .offer-content {
+        padding: 30px 0px;
+    }
+
+    .offer-content h2 {
+        font-size: 30px !important;
+    }
+
+    .offer-content .offer-btn button {
+        font-size: 15px;
+        padding: 11px 20px;
+    }
+
+
+}
+
+
+@media (min-width:992px) and (max-width:1440px) {
+    .banner-description {
+        padding-top: 167px;
     }
 }
