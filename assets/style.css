@@ -123,7 +123,7 @@ button {
 }
 
 #banner-section .row {
-    height: 80vh ;
+    height: 80vh;
 }
 
 
@@ -379,6 +379,28 @@ button {
         line-height: 1.2;
     }
 
+    h2 {
+        font-size: 35px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .about-custom,
+    .clinics-custom,
+    .blog-custom,
+    .offers-custom,
+    .client-custom,
+    .download-custom {
+        padding: 40px 0px 30px;
+    }
+
+    /* header responsiveness */
+
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+
+    /* banner section responsiveness */
+
     #banner-section {
         height: auto !important;
         background-position: 70%;
@@ -423,8 +445,18 @@ button {
         text-align: center;
     }
 
+    .clinics-list-row {
+        gap: 60px;
+    }
 
-    /* blog responsoiveness */
+
+    /* blog section responsiveness */
+
+    .blog-cards-row {
+        gap: 60px;
+    }
+
+
 
     .blog-description-row {
         text-align: center;
@@ -434,8 +466,8 @@ button {
         text-align: center;
     }
 
-    .card-content :nth-child(1) {
-        font-size: 30px;
+    .card-content :nth-child(1){
+        font-size: 25px;
     }
 
     .card-content :nth-child(3) {
@@ -476,6 +508,11 @@ button {
     }
 
 
+    .client-content p{
+        margin-bottom: 20px !important;
+    }
+
+
 }
 
 
@@ -498,15 +535,15 @@ button {
     }
 
 
-    
-.about-custom,
-.clinics-custom,
-.blog-custom,
-.offers-custom,
-.client-custom,
-.download-custom {
-    padding: 70px 0px 30px;
-}
+
+    .about-custom,
+    .clinics-custom,
+    .blog-custom,
+    .offers-custom,
+    .client-custom,
+    .download-custom {
+        padding: 40px 0px 30px;
+    }
 
 
 
@@ -520,6 +557,16 @@ button {
     #banner-section {
         height: 70%;
         background-position: 70%;
+    }
+
+    #banner-section .row {
+        height: 65vh;
+    }
+
+
+
+    .banner-description {
+        padding-top: 20px;
     }
 
     .banner-description h2 {
@@ -540,8 +587,8 @@ button {
     }
 
     .menu li {
-        margin-right: 0px; 
-        padding-right: 0px; 
+        margin-right: 0px;
+        padding-right: 0px;
         width: 100%;
         padding: 10px 0px;
         border: 0px;
@@ -577,9 +624,20 @@ button {
         text-align: center;
     }
 
+    .card-content {
+        padding: 20px 20px 10px;
+    }
 
-    .list-card {
-        margin-bottom: 20px;
+
+    .clinics-list-row {
+        gap: 40px;
+    }
+
+
+    /* blog section responsiveness */
+
+    .blog-cards-row {
+        gap: 40px;
     }
 
 
