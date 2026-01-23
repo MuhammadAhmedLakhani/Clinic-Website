@@ -492,6 +492,11 @@ button {
         padding: 11px 20px;
         font-size: 20px;
     }
+    /* offer section responsiveness */
+    
+    .offer-content-row {
+        padding-top: 20px;
+    }
 
     .offer-content h2 {
         font-size: 36px !important;
@@ -674,6 +679,22 @@ button {
         padding: 11px 20px;
     }
 
+    /* .offer-image-row {
+        height: 40vh;
+    } */
+
+
+    .offer-image {
+        height: 80vh;
+    }
+
+    .offer-content-row {
+        padding-left: 10px;
+        height: 80vh;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .client-content img {
         width: 40%;
@@ -681,6 +702,10 @@ button {
 
     .client-decorations img {
         width: 25%;
+    }
+
+    .download-btns img {
+        width: 40%;
     }
 
 }
